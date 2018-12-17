@@ -8,31 +8,54 @@
 
 import Foundation
 
-// main
-
 // Questions
 
-//        10950
+//        10951
 
-let input: Int = Int(readLine()!)!
-
-var sum: [Int] = []
-
-for n in 0..<input {
-    let a = readLine()
+while(true) {
+    let caseInput = readLine()?.components(separatedBy: " ")
     
-    if (a != nil) {
-//        print(a!)
-        var array = a!.components(separatedBy: " ")
-//        print(sum[n])
-        print(Int(array[0])! + Int(array[1])!)
-//        sum[n] = Int(array[0])! + Int(array[1])!
+    if (caseInput != nil) {
+        let numA = Int(caseInput![0])!
+        let numB = Int(caseInput![1])!
+        
+        print(numA + numB)
+    } else {
+        break
     }
     
 }
-//for n in sum {
-//    print(n)
+
+
+
+//      10950 -2
+
+//let caseInput = readLine()!
+//let caseNum = Int(caseInput)!
+//
+//
+//for _ in 0..<caseNum {
+//    let plusNum = readLine()!.characters.split(separator: " ").map(String.init)
+//    let numA = Int(plusNum[0])!
+//    let numB = Int(plusNum[1])!
+//    print(numA + numB)
 //}
+
+//      10950 - 1
+
+//let input: Int = Int(readLine()!)!
+//
+//var sum: [Int] = []
+//
+//for n in 0..<input {
+//    let a = readLine()
+//
+//    if (a != nil) {
+//        var array = a!.components(separatedBy: " ")
+//        print(Int(array[0])! + Int(array[1])!)
+//    }
+//}
+
 
 
 
