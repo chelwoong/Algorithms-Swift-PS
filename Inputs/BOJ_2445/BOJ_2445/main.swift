@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  2445
+//  BOJ_2445
 //
 //  Created by woong on 27/12/2018.
 //  Copyright © 2018 woong. All rights reserved.

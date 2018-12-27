@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  2446
+//  BOJ_2446
 //
 //  Created by woong on 27/12/2018.
 //  Copyright © 2018 woong. All rights reserved.
@@ -19,3 +19,4 @@ Array(1..<n).forEach({
     print(String(repeating: " ", count: n-$0-1), terminator:"")
     print(String(repeating: "*", count: (($0+1)*2)-1))
 })
+
