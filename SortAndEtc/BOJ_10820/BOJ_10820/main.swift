@@ -19,7 +19,7 @@ func main() {
             var upperStr = 0
             var number = 0
             var space = 0
-            
+
         for i in 0..<str.count {
             if str[i] == " " {
                 space += 1
@@ -31,9 +31,32 @@ func main() {
                 number += 1
             }
         }
-        
+
         print("\(underStr) \(upperStr) \(number) \(space)")
     }
 }
 
 main()
+
+//while let input = readLine() {
+//
+//    let str = Array(input)
+//    var underStr = 0
+//    var upperStr = 0
+//    var number = 0
+//    var space = 0
+//
+//    for i in 0..<str.count {
+//        if str[i] == " " {
+//            space += 1
+//        } else if str[i] >= "a" && str[i] <= "z" {
+//            underStr += 1
+//        } else if str[i] >= "A" && str[i] <= "Z" {
+//            upperStr += 1
+//        } else {
+//            number += 1
+//        }
+//    }
+//
+//    print("\(underStr) \(upperStr) \(number) \(space)")
+//}
