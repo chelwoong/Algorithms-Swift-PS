@@ -73,6 +73,7 @@ func dp(_ n: Int) -> Int {
 }
 
 if let input = readLine() {
+    
     let n = Int(input) ?? 0
     print(dp(n))
 }
