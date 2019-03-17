@@ -1,6 +1,13 @@
 # Algorithms with Swift!!!
 
-## _BOJ using swift_
+### Contents
+
+- [BOJ](#boj)
+- [kakaoBlind2019](#kakaoblindtest-2019)
+- [wooahanTechCourseTest2019](#wooahantechcourse-test-2019)
+
+
+# _BOJ_
 
 ### Input/Output
 2557, 1000, 2558, 10950, 10951, 10952, 10953, 11021, 11022, 11718, 11719, 11720, 11721, 2741, 2742, 2739, 1924, 8393, 10818, 2438, 2439, 2440, 2441, 2442, 2445, 2522, 2446, 10991, 10992
@@ -29,5 +36,20 @@
 - [ ] 그리디 - 11047, 2875, 10610, 1783, 1931, 11399, 2873, 1744
 
 - [ ] 완전탐색 - 1476, 1107, 1451, 9095, 10819, 10971, 1697, 1963, 9019, 1525, 2251, 2186, 3108, 5014, 1759, 2580, 1987, 6603, 1182, 2003, 1806, 1644, 1261, 1208, 7453, 2632, 2143
+
+
+# _kakaoBlindTest 2019_
+- [x] [1](kakaoBlind2019/kakao_blind_2019_1)
+- [x] [2](kakaoBlind2019/kakaoBlind2019_2)
+
+# _wooahanTechCourse Test 2019_
+- [x] [1](wooahanTechCourseTest/wooahanTech1)
+- [x] [2](wooahanTechCourseTest/wooahanTech2)
+- [x] [3](wooahanTechCourseTest/wooahanTech3)
+- [x] [4](wooahanTechCourseTest/wooahanTech4)
+- [x] [5](wooahanTechCourseTest/wooahanTech5)
+- [x] [6](wooahanTechCourseTest/wooahanTech6)
+- [x] [7](wooahanTechCourseTest/wooahanTech7)
+
 
 ## Various problems
