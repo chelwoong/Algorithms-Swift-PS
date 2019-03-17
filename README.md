@@ -39,17 +39,17 @@
 
 
 # _kakaoBlindTest 2019_
-- [x] [1](kakaoBlind2019/kakao_blind_2019_1)
-- [x] [2](kakaoBlind2019/kakaoBlind2019_2)
+- [x] 1
+- [x] 2
 
 # _wooahanTechCourse Test 2019_
-- [x] [1](woowahanTechCourseTest/woowahanTech1)
-- [x] [2](woowahanTechCourseTest/woowahanTech2/)
-- [x] [3](woowahanTechCourseTest/woowahanTech3/)
-- [x] [4](woowahanTechCourseTest/woowahanTech4/)
-- [x] [5](woowahanTechCourseTest/woowahanTech5/)
-- [x] [6](woowahanTechCourseTest/woowahanTech6/)
-- [x] [7](woowahanTechCourseTest/woowahanTech7/)
+- [x] 1
+- [x] 2
+- [x] 3
+- [x] 4
+- [x] 5
+- [x] 6
+- [x] 7
 
 
 ## Various problems
