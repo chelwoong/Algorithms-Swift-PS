@@ -2,35 +2,58 @@
 //  main.swift
 //  BOJ_1212
 //
-//  Created by woong on 11/02/2019.
+//  Created by woong on 07/04/2019.
 //  Copyright © 2019 woong. All rights reserved.
 //
 
-//import Foundation
+// 8진수 -> 2진수 변환
+import Foundation
 
-func convertToBinary(number: String) -> String {
-    var binary = ""
-    let k = number.reversed().map({Int(String($0)) ?? 0})
-    for i in 0..<k.count {
-        var n = k[i]
-        for _ in 0..<3 {
-            let b = String(n % 2)
-            if n >= 2 {
-                binary += b
-            } else {
-                if (i == k.count - 1) && n == 0{
-                    
-                } else {
-                    binary += String(n)
-                }
-            }
-            n /= 2
+func octalStringConvertToBinary(_ octal: String) -> String {
+    if octal == "0" {
+        return "0"
+    }
+    var result = ""
+    for i in octal {
+        if let oct =  Int(String(i)) {
+            result += octalToBinary(octal: oct)
         }
     }
-    return String(binary.reversed())
+    
+    while true {
+        if let first = result.first {
+            if first == "0" {
+                result.remove(at: result.startIndex)
+            } else {
+                break
+            }
+        }
+    }
+    
+    
+    return result
 }
 
-if let input = readLine() {
-    print(convertToBinary(number: input))
+func octalToBinary(octal: Int) -> String {
+    var value = ""
+    var oct = octal
+    var division = 4
+
+    for _ in 0...2 {
+        if oct != 0 {
+            value += String(oct/division)
+            oct %= division
+            division /= 2
+        } else {
+            value += "0"
+        }
+        
+    }
+    
+   return value
+}
+
+if let octalString = readLine() {
+    print(octalStringConvertToBinary(octalString))
 }
 
