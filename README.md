@@ -42,19 +42,4 @@
 - [x] 1
 - [x] 2
 
-# _wooahanTechCourse Test 2019_
-- [x] 1
-- [x] 2
-- [x] 3
-- [x] 4
-- [x] 5
-- [x] 6
-- [x] 7
-
-# _appjobpair Test 2019_
-
-- [x] 1
-- [x] 2
-- [x] 3
-
 ## Various problems
