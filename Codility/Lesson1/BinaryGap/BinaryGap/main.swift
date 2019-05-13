@@ -38,9 +38,7 @@ public func solution(_ N : Int) -> Int {
         }
     }
     
-    print(binaries)
-    print(maxGap)
-    return 0
+    return maxGap
 }
 
 print(solution(15))
