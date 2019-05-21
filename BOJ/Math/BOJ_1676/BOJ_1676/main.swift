@@ -11,8 +11,6 @@ import Foundation
 // 팩토리얼 0의 개수
 
 if let n = readLine().map({ Int($0) ?? 0}) {
-  
-
     var num = n
     var count = 0
     if num != 0 {
@@ -25,6 +23,4 @@ if let n = readLine().map({ Int($0) ?? 0}) {
     } else {
         print(0)
     }
-    
-    
 }
