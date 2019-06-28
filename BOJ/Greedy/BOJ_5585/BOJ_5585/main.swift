@@ -6,9 +6,6 @@
 //  Copyright © 2019 woong. All rights reserved.
 //
 
-import Foundation
-
-
 guard let input = readLine().map({Int($0)!}) else {fatalError()}
 let counter = 1000
 var price = counter - input
