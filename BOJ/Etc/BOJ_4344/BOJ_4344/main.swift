@@ -32,6 +32,7 @@ for _ in 0..<t {
     let result = round(percent * 1000) / 1000
 //    let result = (percent * 1000).rounded() / 1000
 //    print("\(percent)")
+    String(format: "%.3f", 40.0)
     print("\(String(format: "%.3f", result))%")
 //    print("\(result)%")
 }
