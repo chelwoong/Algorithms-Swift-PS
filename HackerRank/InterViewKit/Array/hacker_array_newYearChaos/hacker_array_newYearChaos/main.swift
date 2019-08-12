@@ -14,11 +14,13 @@ func minimumBribes(q: [Int]) -> Void {
     var arr = q
     var i = 0
     let n = q.count
-    // 현재 위치에서 자기자리까지 차이가 2 이상이면 chaotic
-    // 뒤로는 가능하지만 앞으로는 못감, 따라서 "> 2"
+    
+    // 뇌물은 최대 2,
+    // 앞에가 뒤로 밀리는건 얼마든지 가능하지만
+    // 뒤가 앞으로 올라가는건 최대 2번까지 가능
     for i in 0..<n {
-        let donating = (q[i] - 1 - i)
-        if  donating > 2 {
+        let bribe = (q[i] - 1 - i)
+        if  bribe > 2 {
             print("Too chaotic")
             return
         }
@@ -29,18 +31,21 @@ func minimumBribes(q: [Int]) -> Void {
             i += 1
             continue
         }
-        
+        print(i)
+
         let tmp = arr[i]
         arr[i] = arr[i+1]
         arr[i+1] = tmp
         result += 1
 
+        // 바꾼 애도 더 작을 수 있으니 확인하기 위해
         if i != 0 {
             i -= 1
         }
-        
-        print(i, arr)
+
+//        print(i, arr)
     }
+    
     
     print(result)
     
